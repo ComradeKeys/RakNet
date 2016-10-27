@@ -1,3 +1,5 @@
+#ifndef RAKNET_WINDOWS_INCLUDES
+#define RAKNET_WINDOWS_INCLUDES
 /*
  *  Copyright (c) 2014, Oculus VR, Inc.
  *  All rights reserved.
@@ -26,4 +28,5 @@
 // winsock2.h(212) : error C2011: 'netent' : 'struct' type redefinition
 // winsock2.h(219) : error C2011: 'servent' : 'struct' type redefinition 
 
+#endif
 #endif
