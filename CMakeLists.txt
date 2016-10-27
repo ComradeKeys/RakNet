@@ -43,10 +43,9 @@ endif()
 
 set( RAKNET_INCLUDE_DIRS ${RAKNETHEADERFILES} ${RAKNET_INCLUDE_ONLY_DIR} PARENT_SCOPE ) # Visible from outside
 
-include(./CmakeIncludes/CmakeMacros.txt)
+include(CMake/Macros.cmake)
 FIXLINKOPTIONS()
 FIXCOMPILEOPTIONS()
-
 
 add_subdirectory(Lib)
 
